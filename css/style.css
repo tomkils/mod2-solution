@@ -1,1 +1,81 @@
 
+* {
+    box-sizing: border-box;
+  }
+
+#You must implement the following breakpoints that will be considered desktop, tablet, and mobile. 
+#The browser should display a desktop version of the site when the width of the browser window is 992px and above. 
+#Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively.
+#Mobile view should appear only if the width of the browser is equal to or less than 767px.
+#
+
+.row {
+  width: 100%;
+}
+
+# Desktop
+@media (min-witdh: 992px)
+{
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, ,.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, 
+  .col.lg-11, .col-lg-11 
+  {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+    
+  }
+  .col-lg-3 {
+    width: 24.99%;
+  }
+  .col-lg-4 {
+    width: 8.33%;
+  }
+  .col-lg-5 {
+    width: 16.66%;
+    
+  }
+  .col-lg-6 {
+    width: 24.99%;
+  }
+  .col-lg-7 {
+    width: 8.33%;
+  }
+  .col-lg-8 {
+    width: 16.66%;
+    
+  }
+  .col-lg-9 {
+    width: 24.99%;
+  }
+  .col-lg-10 {
+    width: 8.33%;
+  }
+  .col-lg-11 {
+    width: 16.66%;
+    
+  }
+  .col-lg-12 {
+    width: 24.99%;
+  }
+  
+  
+  
+}
+
+# Tablet
+@media (min-width: 768px) and (max-width: 991px)
+{
+  
+}
+
+
+
+
+@media (min-width: 767px)
+{
+  
+}
